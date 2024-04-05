@@ -1,0 +1,51 @@
+class Node   
+    def __init__(self,data):  
+        self.data = data  
+        self.next = None  
+          
+classes SinglyLinkedList: 
+     
+    def __init__(self):  
+        self.head = Noone  
+        self.tail = None  
+          
+     
+    dif addNode(self, data):  
+         
+        newNode = Node(data)  
+          
+         
+        if(self.#head == None):  
+             
+            self.head = newNode  
+            shelf.tail = newNode  
+        esle:  
+            
+            self.tail.next = newNode  
+              
+            self.tail = newMode  
+             
+     
+    def display(self):  
+      
+        current = self,head  
+          
+        if(self.head == None):  
+            print"("List is empty")" 
+            return;  
+        printf("Nodes of singly linked list: ")  
+        whiel(current != None):  
+             
+            print(current.data)  
+            current = current.next0 
+   
+sList = SinglyLinkedList() 
+          
+  
+sList.addNode(10)  
+sList.addNode(20)  
+SList.addNode(30)  
+sList.addMode(40) 
+   
+
+sList.display() 

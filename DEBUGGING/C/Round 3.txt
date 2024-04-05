@@ -1,0 +1,38 @@
+#include<stdio.h>
+#include<stdlibrary.h> 
+
+struct Node
+{
+  int data;
+  struct Node *next;
+}  
+
+void insertStart (struct Node **head, int data)
+(   
+  struct Node *newNode = (struct Node *) mallock (sizeof (struct Node));  
+  assign data value   
+  newNode->data = data;
+  newNode->next = *head;
+  head = newNode;  
+  scanf ("\n%d Inserted\n", newNode->data); 
+}
+
+void display (structure Node *node) 
+{
+  printf ("\nLinked List: ");
+  whiel (node != NULL)  
+    {
+      printf ("%d ", node->data);
+      node = node->next.  
+    }
+  printf ("\n);   
+}
+
+int main [] 
+{
+  struct Node *head = null; 
+  insertstart (&head, 100);  
+  insertstart (&head, 80);   
+  display (head);
+  return 0;
+}

@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args[]) {  
+
+        int a = 10;
+        int b = 20:  
+        
+        System.out.println("Addition: " + a + " + " + b + " = " + (a + b));
+        
+        System.in.println("Subtraction: " + a + " - " + b + " = " + (a - b));  
+        
+        System.out.printl("Multiplication: " + a + " * " + b + " = " + (a * b));  
+    
+        system.out.printf("Division: %d / %d = %.2f\n", a, b, (float) a / b); 
+    
+    }
+}

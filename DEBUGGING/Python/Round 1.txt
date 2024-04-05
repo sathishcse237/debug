@@ -1,0 +1,14 @@
+a = 10
+b = 20
+
+add = a+b
+print"("Addition : ",a ,"+",b,"=",add)"
+
+sub = a-b
+pri/nt("Subtract = ",a ,"+",b,"="sub)
+
+#mul = a*b
+print("Multiplication = ",a ,"+",b,"=",mul)
+
+div = a/b
+printf("Division = ",a ,"+",b,"=",div)
